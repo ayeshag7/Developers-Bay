@@ -10,17 +10,17 @@ export const SectionOne = () => {
         <div className="my-5 mx-5 lg:mx-0">
 
             {/* Header Text */}
-            <h1 className="text-3xl md:text-4xl font-medium text-lightblueheader mb-4">Providing Tech Solutions</h1>
-            <h1 className="text-3xl md:text-4xl font-medium text-white mb-4">That matter to You</h1>
+            <h1 className="text-3xl mb-2 md:text-4xl font-medium text-lightblueheader md:mb-4">Providing Tech Solutions</h1>
+            <h1 className="text-3xl md:text-4xl font-medium text-white md:mb-4">That matter to You</h1>
 
             {/* Paragraph Text */}
-            <p className="text-lg text-heroparagraphtext mt-6 mb-8 w-96">
+            <p className="text-base w-60 md:text-lg text-heroparagraphtext mt-6 mb-8 md:w-96">
             Delivering solutions that are not just technologically advanced but also tailored to meet your specific needs and goals.
             </p>
 
             {/* Explore Button */}
             <Link to="">
-              <button className="bg-white text-herobuttontext rounded-lg px-4 py-1.5 text-lg font-medium lg:text-xl">Explore</button>
+              <button className="bg-white text-herobuttontext rounded-lg px-2 py-1 text-base md:px-4 md:py-1.5 md:text-xl font-medium">Explore</button>
             </Link>
 
         </div>

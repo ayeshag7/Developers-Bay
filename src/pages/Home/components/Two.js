@@ -4,8 +4,8 @@ export const Two = () => {
   return (
     <main className="border border-lightblueheader relative bg-lightblueheader p-0" style={{ backgroundImage: `url(${gradient})` }}>
       <div className="mt-12 mm:mb-16 mb-8">
-        <h1 className="text-5xl font-bold text-white text-shadow text-center">Design, <span className="text-projectshadow">Develop</span>, Deliver</h1>
-        <p className="text-offwhite text-center font-normal my-8">
+        <h1 className="text-3xl md:text-5xl font-bold text-white text-shadow text-center">Design, <span className="text-projectshadow">Develop</span>, Deliver</h1>
+        <p className="text-base text-offwhite text-center font-normal my-8">
           We strive to fuse creativity with cutting-edge technology to 
           <br />
           be able to bring your visions to life!
@@ -46,7 +46,7 @@ export const Two = () => {
 
       <div className="hidden max-mm:flex max-mm:flex-col max-mm:items-center max-mm:gap-y-12">
 
-        <div className="my-8">
+        <div className="mt-12 mb-8">
           <div class="relative inline-block">
             <div class="bg-circleblue h-20 w-20 border border-dashed shadow-md shadow-projectshadow rounded-full absolute"></div>
             <p class="text-white text-shadow font-medium text-2xl relative z-10 pt-5 pl-6">Quality Assurance</p>
@@ -61,7 +61,7 @@ export const Two = () => {
         </div>
         
 
-        <div className="mt-8 mb-20">
+        <div className="mt-8 mb-24">
           <div class="relative inline-block">
             <div class="bg-circleblue h-20 w-20 border border-dashed shadow-md shadow-projectshadow rounded-full absolute"></div>
             <p class="text-white text-shadow font-medium text-2xl relative z-10 pt-5 pl-6">Custom Solutions</p>
