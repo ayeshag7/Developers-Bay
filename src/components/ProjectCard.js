@@ -1,12 +1,12 @@
 export const ProjectCard = ({projectImage, title, description, link}) => {
   return (
-    <div className="flex justify-around items-center px-2 md:px-4 shadow-custom hover:scale-105 transform transition-transform duration-300 ease-out bg-white w-80 h-36 md:w-96 md:h-40 border border-gray-200 rounded-xl">
+    <div className="flex justify-around items-center px-2 md:px-4 shadow-custom hover:scale-105 transform transition-transform duration-300 ease-out bg-white w-80 h-36 max-sm:mb-2 md:w-96 md:h-40 border border-gray-200 rounded-xl">
 
-        <img className="h-20 md:h-28 border rounded-md" src={projectImage} alt="project" />
+        <img className="h-16 md:h-28 border rounded-md" src={projectImage} alt="project" />
 
-        <div className="mt-4 md:mt-2">
+        <div className="mt-6 md:mt-2">
 
-            <h1 className="text-lg md:text-xl font-semibold text-projectshadow mb-0">{title}</h1>
+            <h1 className="text-base md:text-xl font-semibold text-projectshadow mb-0">{title}</h1>
 
             <p className="text-xs w-48 md:text-sm text-projectparagraphtext mb-0 md:w-52">
             {description}

@@ -5,7 +5,7 @@ export const Two = () => {
     <main className="border border-lightblueheader relative bg-lightblueheader p-0" style={{ backgroundImage: `url(${gradient})` }}>
       <div className="mt-12 mm:mb-16 mb-8">
         <h1 className="text-3xl md:text-5xl font-bold text-white text-shadow text-center">Design, <span className="text-projectshadow">Develop</span>, Deliver</h1>
-        <p className="text-base text-offwhite text-center font-normal my-8">
+        <p className="text-base max-sm:mx-4 text-offwhite text-center font-normal my-8">
           We strive to fuse creativity with cutting-edge technology to 
           <br />
           be able to bring your visions to life!

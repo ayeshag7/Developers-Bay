@@ -23,7 +23,7 @@ export const Three = () => {
   return (
     <main className="flex flex-col items-center bg-white">
 
-      <h1 className="text-3xl md:text-4xl text-center mt-16 text-projectshadow font-bold">All Your Services in One Place</h1>
+      <h1 className="text-2xl max-sm:w-48 mt-12 md:text-4xl text-center md:mt-16 text-projectshadow font-bold">All Your Services in One Place</h1>
       
       {/* div containing the rows container i.e., the main div */}
       <div className="flex justify-center mt-16 mb-16">
