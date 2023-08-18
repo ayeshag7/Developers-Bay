@@ -16,9 +16,9 @@ export const Four = () => {
   return (
     <main className="border border-stacklight relative bg-lightblueheader p-0" style={{ backgroundImage: `url(${gradient})` }}>
 
-      <div className="flex justify-around mt-20 px-12">
+      <div className="flex md:justify-around flex-col md:flex-row mt-12 md:mt-20 px-12">
 
-        {/* stack div */}
+        {/* stack div medium */}
         <div className="hidden md:block md:relative">
 
           {/* orbits */}
@@ -89,7 +89,7 @@ export const Four = () => {
         </div>
 
         {/* text div */}
-        <div className="flex flex-col items-start m-8">
+        <div className="flex flex-col items-start mb-16 mx-2 md:m-8">
 
           <div className="flex justify-start gap-x-2 items-center">
             <div className="bg-projectshadow h-7 w-1.5"></div>
@@ -110,6 +110,84 @@ export const Four = () => {
           </div>
 
         </div>
+
+        {/* stack div small */}
+        <div className="block relative md:hidden mt-8 mb-28">
+
+          {/* orbits */}
+          <div id="circleOuter" className="relative rounded-full border border-orbitcolor"
+          style={{ height: "250px", width: "250px" }}>
+
+            <div id="orbit2c1" className="flex justify-center items-center absolute bg-white h-12 w-12 rounded-full"
+            style={{top:'-36px', left:'100px'}}>
+                <img className="h-8 w-8" src={react} alt="react logo" />
+            </div>
+
+            <div id="orbit2c2" className="flex justify-center items-center absolute top-16 bg-white h-12 w-12 rounded-full"
+            style={{left:'-28px'}}>
+                <img className="h-8 w-8" src={next} alt="next logo" />
+            </div>
+
+            <div id="orbit2c3" className="flex justify-center items-center absolute bg-white h-12 w-12 rounded-full"
+            style={{right: '-28px', top:'54px'}}>
+                <img className="h-8 w-8" src={tailwind} alt="tailwind logo" />
+            </div>
+
+            <div id="orbit2c4" className="flex justify-center items-center absolute top-48 bg-white h-12 w-12 rounded-full"
+            style={{left:'2px'}}>
+                <img className="h-8 w-8" src={bootstrap} alt="bootstrap logo" />
+            </div>
+
+            <div id="orbit2c5" className="flex justify-center items-center absolute top-48 bg-white h-12 w-12 rounded-full"
+            style={{right: '2px'}}>
+                <img className="h-8 w-8" src={selenium} alt="selenium logo" />
+            </div>
+
+            <div id="orbit2c5" className="flex justify-center items-center absolute bg-white h-12 w-12 rounded-full"
+            style={{bottom:'-40px', left:'104px'}}>
+                <img className="h-8 w-8" src={mysql} alt="mysql logo" />
+            </div>
+
+          </div>
+          
+          <div id="circleInner" className="absolute rounded-full border border-orbitcolor"
+          style={{ height: "180px", width: "180px", top: "36px", left:"36px" }}>
+
+            <div id="orbit1c1" className="flex justify-center items-center absolute left-4 bg-white h-12 w-12 rounded-full"
+            style={{bottom: '134px'}}>
+                <img className="h-8 w-8" src={js} alt="javascript logo" />
+            </div>
+
+            <div id="orbit1c2" className="flex justify-center items-center absolute left-28 bg-white h-12 w-12 rounded-full"
+            style={{bottom: '134px'}}>
+                <img className="h-8 w-8" src={python} alt="javascript logo" />
+            </div>
+
+            <div id="orbit1c3" className="flex justify-center items-center absolute top-20 bg-white h-12 w-12 rounded-full"
+            style={{left: '148px'}}>
+                <img className="h-8 w-8" src={html} alt="javascript logo" />
+            </div>
+
+            <div id="orbit1c4" className="flex justify-center items-center absolute top-36 left-16 bg-white h-12 w-12 rounded-full">
+                <img className="h-8 w-8" src={css} alt="javascript logo" />
+            </div>
+
+            <div id="orbit1c5" className="flex justify-center items-center absolute top-20 bg-white h-12 w-12 rounded-full"
+            style={{right: '144px'}}>
+                <img className="h-8 w-8" src={ts} alt="javascript logo" />
+            </div>
+
+          </div>
+          
+
+          <div className="absolute flex justify-center items-center bg-white h-16 w-16 rounded-full"
+          style={{top:'90px', left:'96px'}}>
+              <img className="h-10 w-10" src={mainlg} alt="main logo" />
+          </div>
+
+        </div>
+
+
       </div>
       
     </main>

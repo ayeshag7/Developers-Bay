@@ -3,7 +3,7 @@ import { ServiceCard } from "../../../components/ServiceCard";
 export const Three = () => {
 
   const tickIcon = <i class="text-iconcolor text-xl bi bi-check-lg"></i>;
-  const belowText = "text-xs text-projectshadow"
+  const belowText = "max-sm:my-1 w-24 md:w-40 text-xs text-projectshadow"
 
   const row = "flex flex-col";
 
@@ -15,8 +15,8 @@ export const Three = () => {
   const titlesR1 = ["Website Development", "Web Scraping", "Web Automation", "Chrome Extension Development"];
   const titlesR2 = ["Data Analysis & Visualization", "Debugging & Maintenance", "AI Integration", "Chat bot Development"];
 
-  const iconsR1 = [<i className="text-iconcolor text-5xl bi bi-globe2"></i>, <i class="text-iconcolor text-5xl bi bi-trash3"></i>, <i class="text-iconcolor text-5xl bi bi-tropical-storm"></i>, <i class="text-iconcolor text-5xl bi bi-browser-chrome"></i>]
-  const iconsR2 = [<i class="text-iconcolor text-5xl bi bi-graph-up-arrow"></i>, <i class="text-iconcolor text-5xl bi bi-wrench-adjustable-circle"></i>,<i class="text-iconcolor text-5xl bi bi-ui-checks-grid"></i>,  <i class="text-iconcolor text-5xl bi bi-android2"></i>]
+  const iconsR1 = [<i className="text-iconcolor text-4xl md:text-5xl bi bi-globe2"></i>, <i class="text-iconcolor text-4xl md:text-5xl bi bi-trash3"></i>, <i class="text-iconcolor text-4xl md:text-5xl bi bi-tropical-storm"></i>, <i class="text-iconcolor text-4xl md:text-5xl bi bi-browser-chrome"></i>]
+  const iconsR2 = [<i class="text-iconcolor text-4xl md:text-5xl bi bi-graph-up-arrow"></i>, <i class="text-iconcolor text-4xl md:text-5xl bi bi-wrench-adjustable-circle"></i>,<i class="text-iconcolor text-4xl md:text-5xl bi bi-ui-checks-grid"></i>,  <i class="text-iconcolor text-4xl md:text-5xl bi bi-android2"></i>]
 
 
 
@@ -29,10 +29,10 @@ export const Three = () => {
       <div className="flex justify-center mt-16 mb-16">
 
         {/* div containing the two rows */}
-        <div className="flex flex-col items-center gap-y-8">
+        <div className="flex flex-col items-center md:gap-y-8">
 
             {/* put first row here */}
-            <div className="flex justify-around md:justify-start gap-x-8 flex-wrap">
+            <div className="max-sm:px-3 flex justify-around md:justify-start gap-x-0 md:gap-x-8 flex-wrap">
 
               {/* r1-c1 */}
               <div className={row}>
@@ -46,7 +46,7 @@ export const Three = () => {
                     {tickIcon}
                     <p className={belowText}>Shopify</p>
                   </li>
-                  <li className={columnItem}>
+                  <li className={`${columnItem} max-sm:mb-8`}>
                     {tickIcon}
                     <p className={belowText}>Squarespace</p>
                   </li>
@@ -65,7 +65,7 @@ export const Three = () => {
                     {tickIcon}
                     <p className={belowText}>API Based</p>
                   </li>
-                  <li className={columnItem}>
+                  <li className={`${columnItem} max-sm:mb-8`}>
                     {tickIcon}
                     <p className={belowText}>Web Crawlers</p>
                   </li>
@@ -80,9 +80,9 @@ export const Three = () => {
                     {tickIcon}
                     <p className={belowText}>Web Tasks Scheduling</p>
                   </li>
-                  <li className={columnItem}>
+                  <li className={`${columnItem} max-sm:mb-8`}>
                     {tickIcon}
-                    <p className={belowText}>We Accessibility Testing</p>
+                    <p className={belowText}>Web Accessibility Testing</p>
                   </li>
                 </ul>
               </div>
@@ -90,12 +90,10 @@ export const Three = () => {
               {/* r1-c4 */}
               <div className={row}>
                 <ServiceCard icon={iconsR1[3]} serviceText={titlesR1[3]}/>
-                <p className="text-xs text-projectshadow my-4">
+                <p className="w-28 md:w-40 text-xs text-projectshadow my-4">
                   Extensions that cater to your
                   <br />
-                  specific needs, seamlessly
-                  <br />
-                  integrated with the browser.
+                  specific needs.
                 </p>
               </div>
 
@@ -103,7 +101,7 @@ export const Three = () => {
 
           
             {/* put second row here */}
-            <div className="flex justify-around md:justify-start gap-x-8 flex-wrap">
+            <div className="max-sm:px-3 flex justify-around md:justify-start gap-x-0 md:gap-x-8 flex-wrap">
               
               {/* r2-c1 */}
               <div className={row}>
@@ -117,7 +115,7 @@ export const Three = () => {
                     {tickIcon}
                     <p className={belowText}>Perscriptive Analysis</p>
                   </li>
-                  <li className={columnItem}>
+                  <li className={`${columnItem} max-sm:mb-8`}>
                     {tickIcon}
                     <p className={belowText}>BI Dashboards</p>
                   </li>
@@ -136,7 +134,7 @@ export const Three = () => {
                     {tickIcon}
                     <p className={belowText}>Performance Optimization</p>
                   </li>
-                  <li className={columnItem}>
+                  <li className={`${columnItem} max-sm:mb-8`}>
                     {tickIcon}
                     <p className={belowText}>Code Review</p>
                   </li>
@@ -151,7 +149,7 @@ export const Three = () => {
                     {tickIcon}
                     <p className={belowText}>AI Integration with IoT</p>
                   </li>
-                  <li className={columnItem}>
+                  <li className={`${columnItem} max-sm:mb-8`}>
                     {tickIcon}
                     <p className={belowText}>AI Monitoring</p>
                   </li>
