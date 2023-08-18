@@ -11,7 +11,7 @@ export const Footer = () => {
     <div id="main-container" className="bg-darkblue">
       <div className="footerDimensions flex justify-around flex-wrap">
         <div className="my-10">
-          <Link to="" className="flex items-center">
+          <Link to="/" className="flex items-center">
                 <img src={logo} className="h-12 mr-3" alt="Developers Bay Logo" />
                 <span className="self-center text-white text-xl font-medium whitespace-nowrap">Developers Bay</span>
           </Link>
@@ -25,9 +25,6 @@ export const Footer = () => {
                   About
                 </li>
                 <li className={componenText}>
-                  Pricing
-                </li>
-                <li className={componenText}>
                   Services
                 </li>
               </ul>
@@ -37,7 +34,7 @@ export const Footer = () => {
                   Contact Us
                 </li>
                 <li className={componenText}>
-                  Email
+                  <a target="_blank" rel="noreferrer" className="hover:underline hover:text-lightblueheader" href="mailto:developersbayy@gmail.com">Email</a>
                 </li>
                 <li className={componenText}>
                   Phone
@@ -55,7 +52,7 @@ export const Footer = () => {
                   Twitter
                 </li>
                 <li className={componenText}>
-                  Github
+                  <a target="_blank" rel="noreferrer" className="hover:underline hover:text-lightblueheader" href="https://github.com/ayeshag7">Github</a>
                 </li>
                 <li className={componenText}>
                   Blog
