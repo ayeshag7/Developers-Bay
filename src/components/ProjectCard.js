@@ -1,6 +1,6 @@
 export const ProjectCard = ({projectImage, title, description, link}) => {
   return (
-    <div className="flex justify-around items-center px-2 md:px-4 shadow-custom hover:scale-105 transform transition-transform duration-300 ease-out bg-white w-80 h-36 max-sm:mb-2 md:w-96 md:h-40 border border-gray-200 rounded-xl">
+    <div className="flex justify-around items-center px-2 md:px-4 shadow-custom hover:scale-110 transform transition-transform duration-300 ease-out bg-white w-80 h-36 max-sm:mb-2 md:w-96 md:h-40 border border-gray-200 rounded-xl">
 
         <img className="h-16 md:h-28 border rounded-md" src={projectImage} alt="project" />
 
