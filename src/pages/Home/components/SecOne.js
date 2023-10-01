@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import codeImg from "../../../assets/code image.png";
 
-export const SectionOne = () => {
+export const SecOne = () => {
   return (
     <main className=".sectionOne bg-darkblue">
       <section className="flex flex-col lg:flex-row lg:justify-around items-center lg:gap-x-16 mt-8 px- lg:px-4">

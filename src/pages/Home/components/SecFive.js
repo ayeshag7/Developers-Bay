@@ -5,7 +5,7 @@ import p3 from "../../../assets/p3.png";
 import p4 from "../../../assets/p4.png";
 import { ProjectCard } from "../../../components/ProjectCard";
 
-export const Five = () => {
+export const SecFive = () => {
 
   const titles = ["Course Cloud", "Movieverse", "Chat2PDF", "Facebook Clone"];
   const descriptions = ["An online learning platform built with React JS to browse, search, and buy courses.",

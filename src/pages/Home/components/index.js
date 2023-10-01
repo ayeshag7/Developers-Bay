@@ -1,6 +1,6 @@
-export { SectionOne } from "./SectionOne";
-export { Two } from "./Two";
-export { Three } from "./Three";
-export { Four } from "./Four";
-export { Five } from "./Five";
-export { stack } from "./stack";
+export { SecOne } from "./SecOne";
+export { SecTwo } from "./SecTwo";
+export { SecThree } from "./SecThree";
+export { SecFour } from "./SecFour";
+export { SecFive } from "./SecFive";
+export { StackDiv } from "./StackDiv";

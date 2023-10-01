@@ -1,6 +1,6 @@
 import { ServiceCard } from "../../../components/ServiceCard";
 
-export const Three = () => {
+export const SecThree = () => {
 
   const tickIcon = <i class="text-iconcolor text-xl bi bi-check-lg"></i>;
   const belowText = "max-sm:my-1 w-24 md:w-40 text-xs text-projectshadow"

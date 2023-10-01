@@ -1,6 +1,6 @@
 import gradient from "../../../assets/gradient1.png";
 
-export const Two = () => {
+export const SecTwo = () => {
   return (
     <main className="border border-lightblueheader relative bg-lightblueheader p-0" style={{ backgroundImage: `url(${gradient})` }}>
       <div className="mt-12 mm:mb-16 mb-8">

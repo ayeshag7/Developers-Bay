@@ -12,7 +12,7 @@ import selenium from "../../../assets/selenium.png";
 import next from "../../../assets/next.png";
 import mysql from "../../../assets/mysql.png";
 
-export const Four = () => {
+export const SecFour = () => {
   return (
     <main className="border border-stacklight relative bg-lightblueheader p-0" style={{ backgroundImage: `url(${gradient})` }}>
 
@@ -192,4 +192,4 @@ export const Four = () => {
       
     </main>
   )
-}
+};

@@ -49,13 +49,13 @@ export const Footer = () => {
                   Instagram
                 </li>
                 <li className={componenText}>
-                  Twitter
+                <a target="_blank" rel="noreferrer" className="hover:underline hover:text-lightblueheader" href="https://twitter.com/ayesha_g7">Twitter</a>
                 </li>
                 <li className={componenText}>
                   <a target="_blank" rel="noreferrer" className="hover:underline hover:text-lightblueheader" href="https://github.com/ayeshag7">Github</a>
                 </li>
                 <li className={componenText}>
-                  Blog
+                  <a target="_blank" rel="noreferrer" className="hover:underline hover:text-lightblueheader"  href="https://ayeshaiq.hashnode.dev/">Blog</a>
                 </li>
               </ul>
 
@@ -66,4 +66,4 @@ export const Footer = () => {
       </div>
     </div>
   )
-}
+};
