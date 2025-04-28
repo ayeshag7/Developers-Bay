@@ -51,6 +51,20 @@ main{
 }
 
 
+/* In your global CSS file (like index.css or wherever your Tailwind base is imported) */
+
+@keyframes scrollHorizontal {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-scroll {
+  animation: scrollHorizontal 40s linear infinite;
+}
 
 
 
