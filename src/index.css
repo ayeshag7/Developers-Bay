@@ -66,6 +66,38 @@ main{
   animation: scrollHorizontal 40s linear infinite;
 }
 
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.orbit-outer {
+  animation: rotate 60s linear infinite;
+}
+
+.orbit-inner {
+  animation: rotate 90s linear infinite reverse;
+}
 
 
+@keyframes rotate-reverse {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
 
+.orbit-icon {
+  transform: rotate(-360deg);
+  animation: rotate-reverse 60s linear infinite;
+}
+
+.orbit-icon-inner {
+  animation: rotate 90s linear infinite;
+}

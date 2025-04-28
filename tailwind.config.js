@@ -15,7 +15,7 @@ module.exports = {
         'circleblue': '#1383d2',
         'iconcolor': '#68bbe3',
         'headertechstack': '#258BCC',
-        'orbitcolor': '#4cd3ee'
+        'orbitcolor': '#31bfdc'
       },
       sizing: {
         'w-100': '28rem'

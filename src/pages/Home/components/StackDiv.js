@@ -7,7 +7,7 @@ import firebase from "../../../assets/firebase.svg"
 
 export const StackDiv = () => {
   return (
-    <div className="stackDimensions bg-projectshadow">
+    <div className="stackDimensions bg-projectshadow overflow-hidden">
         <div className="flex justify-around items-center flex-wrap animate-scroll">
           <img className="h-20 w-20 md:h-28 md:w-28" src={mongo} alt="mongo db" />
           <img className="h-10 w-10 md:h-16 md:w-16" src={firebase} alt="firebase" />

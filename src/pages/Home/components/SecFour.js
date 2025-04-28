@@ -22,61 +22,64 @@ export const SecFour = () => {
         <div className="hidden md:block md:relative">
 
           {/* orbits */}
-          <div id="circleOuter" className="relative rounded-full border border-orbitcolor"
+
+          {/* Medium Circle Outer */}
+          <div id="circleOuter" className="relative rounded-full border border-orbitcolor orbit-outer"
           style={{ height: "480px", width: "480px" }}>
 
             <div id="orbit2c1" className="flex justify-center items-center absolute bg-white h-20 w-20 rounded-full"
             style={{top:'-36px', left:'194px'}}>
-                <img className="h-12 w-12" src={react} alt="react logo" />
+                <img className="h-12 w-12 orbit-icon" src={react} alt="react logo" />
             </div>
 
             <div id="orbit2c2" className="flex justify-center items-center absolute top-24 bg-white h-20 w-20 rounded-full"
             style={{left:'-24px'}}>
-                <img className="h-12 w-12" src={next} alt="next logo" />
+                <img className="h-12 w-12 orbit-icon" src={next} alt="next logo" />
             </div>
 
             <div id="orbit2c3" className="flex justify-center items-center absolute top-24 bg-white h-20 w-20 rounded-full"
             style={{right: '-16px'}}>
-                <img className="h-12 w-12" src={tailwind} alt="tailwind logo" />
+                <img className="h-12 w-12 orbit-icon" src={tailwind} alt="tailwind logo" />
             </div>
 
             <div id="orbit2c4" className="flex justify-center items-center absolute top-80 bg-white h-20 w-20 rounded-full"
             style={{left:'-32px'}}>
-                <img className="h-12 w-12" src={bootstrap} alt="bootstrap logo" />
+                <img className="h-12 w-12 orbit-icon" src={bootstrap} alt="bootstrap logo" />
             </div>
 
             <div id="orbit2c5" className="flex justify-center items-center absolute top-96 right-10 bg-white h-20 w-20 rounded-full">
-                <img className="h-12 w-12" src={selenium} alt="selenium logo" />
+                <img className="h-12 w-12 orbit-icon" src={selenium} alt="selenium logo" />
             </div>
 
             <div id="orbit2c5" className="flex justify-center items-center absolute bg-white h-20 w-20 rounded-full"
             style={{bottom:'-64px', left:'194px'}}>
-                <img className="h-12 w-12" src={mysql} alt="mysql logo" />
+                <img className="h-12 w-12 orbit-icon" src={mysql} alt="mysql logo" />
             </div>
 
           </div>
           
-          <div id="circleInner" className="absolute rounded-full border border-orbitcolor"
+          {/* Medium Circle Inner */}
+          <div id="circleInner" className="absolute rounded-full border border-orbitcolor orbit-inner"
           style={{ height: "336px", width: "336px", top: "68px", left:"68px" }}>
 
-            <div id="orbit1c1" className="flex justify-center items-center absolute bottom-64 left-8 bg-white h-20 w-20 rounded-full">
-                <img className="h-12 w-12" src={js} alt="javascript logo" />
+            <div id="orbit1c1" className="flex justify-center items-center absolute bottom-64 left-8 bg-white h-16 w-16 rounded-full">
+                <img className="h-10 w-10 orbit-icon-inner" src={js} alt="javascript logo" />
             </div>
 
-            <div id="orbit1c2" className="flex justify-center items-center absolute bottom-64 left-52 bg-white h-20 w-20 rounded-full">
-                <img className="h-12 w-12" src={python} alt="javascript logo" />
+            <div id="orbit1c2" className="flex justify-center items-center absolute bottom-64 left-52 bg-white h-16 w-16 rounded-full">
+                <img className="h-10 w-10 orbit-icon-inner" src={python} alt="python logo" />
             </div>
 
-            <div id="orbit1c3" className="flex justify-center items-center absolute top-44 left-72 bg-white h-20 w-20 rounded-full">
-                <img className="h-12 w-12" src={html} alt="javascript logo" />
+            <div id="orbit1c3" className="flex justify-center items-center absolute top-44 left-72 bg-white h-16 w-16 rounded-full">
+                <img className="h-10 w-10 orbit-icon-inner" src={html} alt="html logo" />
             </div>
 
-            <div id="orbit1c4" className="flex justify-center items-center absolute top-72 left-24 bg-white h-20 w-20 rounded-full">
-                <img className="h-12 w-12" src={css} alt="javascript logo" />
+            <div id="orbit1c4" className="flex justify-center items-center absolute top-72 left-24 bg-white h-16 w-16 rounded-full">
+                <img className="h-10 w-10 orbit-icon-inner" src={css} alt="css logo" />
             </div>
 
-            <div id="orbit1c5" className="flex justify-center items-center absolute top-40 right-72 bg-white h-20 w-20 rounded-full">
-                <img className="h-12 w-12" src={ts} alt="javascript logo" />
+            <div id="orbit1c5" className="flex justify-center items-center absolute top-40 right-72 bg-white h-16 w-16 rounded-full">
+                <img className="h-10 w-10 orbit-icon-inner" src={ts} alt="typescript logo" />
             </div>
 
           </div>
@@ -115,72 +118,75 @@ export const SecFour = () => {
         <div className="block relative md:hidden mt-8 mb-28">
 
           {/* orbits */}
-          <div id="circleOuter" className="relative rounded-full border border-orbitcolor"
+
+          {/* Small Circle Outer */}
+          <div id="circleOuter" className="relative rounded-full border border-orbitcolor orbit-outer"
           style={{ height: "250px", width: "250px" }}>
 
             <div id="orbit2c1" className="flex justify-center items-center absolute bg-white h-12 w-12 rounded-full"
             style={{top:'-36px', left:'100px'}}>
-                <img className="h-8 w-8" src={react} alt="react logo" />
+                <img className="h-8 w-8 orbit-icon" src={react} alt="react logo" />
             </div>
 
             <div id="orbit2c2" className="flex justify-center items-center absolute top-16 bg-white h-12 w-12 rounded-full"
             style={{left:'-28px'}}>
-                <img className="h-8 w-8" src={next} alt="next logo" />
+                <img className="h-8 w-8 orbit-icon" src={next} alt="next logo" />
             </div>
 
             <div id="orbit2c3" className="flex justify-center items-center absolute bg-white h-12 w-12 rounded-full"
             style={{right: '-28px', top:'54px'}}>
-                <img className="h-8 w-8" src={tailwind} alt="tailwind logo" />
+                <img className="h-8 w-8 orbit-icon" src={tailwind} alt="tailwind logo" />
             </div>
 
             <div id="orbit2c4" className="flex justify-center items-center absolute top-48 bg-white h-12 w-12 rounded-full"
             style={{left:'2px'}}>
-                <img className="h-8 w-8" src={bootstrap} alt="bootstrap logo" />
+                <img className="h-8 w-8 orbit-icon" src={bootstrap} alt="bootstrap logo" />
             </div>
 
             <div id="orbit2c5" className="flex justify-center items-center absolute top-48 bg-white h-12 w-12 rounded-full"
             style={{right: '2px'}}>
-                <img className="h-8 w-8" src={selenium} alt="selenium logo" />
+                <img className="h-8 w-8 orbit-icon" src={selenium} alt="selenium logo" />
             </div>
 
             <div id="orbit2c5" className="flex justify-center items-center absolute bg-white h-12 w-12 rounded-full"
             style={{bottom:'-40px', left:'104px'}}>
-                <img className="h-8 w-8" src={mysql} alt="mysql logo" />
+                <img className="h-8 w-8 orbit-icon" src={mysql} alt="mysql logo" />
             </div>
 
           </div>
           
-          <div id="circleInner" className="absolute rounded-full border border-orbitcolor"
+          {/* Small Circle Inner */}
+          <div id="circleInner" className="absolute rounded-full border border-orbitcolor orbit-inner"
           style={{ height: "180px", width: "180px", top: "36px", left:"36px" }}>
 
             <div id="orbit1c1" className="flex justify-center items-center absolute left-4 bg-white h-12 w-12 rounded-full"
             style={{bottom: '134px'}}>
-                <img className="h-8 w-8" src={js} alt="javascript logo" />
+                <img className="h-8 w-8 orbit-icon-inner" src={js} alt="javascript logo" />
             </div>
 
             <div id="orbit1c2" className="flex justify-center items-center absolute left-28 bg-white h-12 w-12 rounded-full"
             style={{bottom: '134px'}}>
-                <img className="h-8 w-8" src={python} alt="javascript logo" />
+                <img className="h-8 w-8 orbit-icon-inner" src={python} alt="python logo" />
             </div>
 
             <div id="orbit1c3" className="flex justify-center items-center absolute top-20 bg-white h-12 w-12 rounded-full"
             style={{left: '148px'}}>
-                <img className="h-8 w-8" src={html} alt="javascript logo" />
+                <img className="h-8 w-8 orbit-icon-inner" src={html} alt="html logo" />
             </div>
 
             <div id="orbit1c4" className="flex justify-center items-center absolute top-36 left-16 bg-white h-12 w-12 rounded-full">
-                <img className="h-8 w-8" src={css} alt="javascript logo" />
+                <img className="h-8 w-8 orbit-icon-inner" src={css} alt="css logo" />
             </div>
 
             <div id="orbit1c5" className="flex justify-center items-center absolute top-20 bg-white h-12 w-12 rounded-full"
             style={{right: '144px'}}>
-                <img className="h-8 w-8" src={ts} alt="javascript logo" />
+                <img className="h-8 w-8 orbit-icon-inner" src={ts} alt="typescript logo" />
             </div>
 
           </div>
           
 
-          <div className="absolute flex justify-center items-center bg-white h-16 w-16 rounded-full"
+          <div className="absolute flex justify-center items-center bg-white h-20 w-20 rounded-full"
           style={{top:'90px', left:'96px'}}>
               <img className="h-10 w-10" src={mainlg} alt="main logo" />
           </div>
