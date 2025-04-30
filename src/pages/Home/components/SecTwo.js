@@ -18,25 +18,28 @@ export const SecTwo = () => {
         <div id="lineDiv" className="relative bg-projectshadow h-96 w-0.5 border border-projectshadow rounded-lg"></div>
 
         <div id="textDiv1" className="absolute top-14 left-96 transform -translate-y-full">
-          <div class="relative inline-block">
-            <div class="bg-circleblue h-14 w-14 border border-dashed shadow-md shadow-projectshadow rounded-full absolute"></div>
-            <p class="text-white text-shadow font-medium text-2xl relative z-10 pt-3 pl-6">Quality Assurance</p>
+          <div className="relative inline-block float-hover-group">
+            {/* Circle */}
+            <div className="bg-circleblue size-idle border border-dashed shadow-md shadow-projectshadow rounded-full absolute floating-circle"></div>
+            {/* Text */}
+            <p className="text-white text-shadow font-medium text-2xl relative z-10 pt-3 pl-6 floating-text">
+              Quality Assurance
+            </p>
           </div>
         </div>
-        
 
         <div id="textDiv2" className="absolute top-1/2 transform -translate-y-1/2"
           style={{ right: "436px" }}>
-          <div class="relative inline-flex items-center">
-            <p class="text-white text-shadow font-medium text-2xl relative z-10">Timely delivery</p>
-            <div class="bg-circleblue h-14 w-14 border border-dashed shadow-md shadow-projectshadow rounded-full absolute -right-4"></div>
+          <div class="relative inline-flex items-center float-hover-group">
+            <p class="text-white text-shadow font-medium text-2xl relative z-10 floating-text">Timely delivery</p>
+            <div class="bg-circleblue size-idle border border-dashed shadow-md shadow-projectshadow rounded-full absolute -right-4 floating-circle"></div>
           </div>
         </div>
         
         <div id="textDiv3" className="absolute bottom-14 left-96 transform translate-y-full">
-          <div class="relative inline-flex items-center">
-            <p class="text-white text-shadow font-medium text-2xl relative z-10">Custom Solutions</p>
-            <div class="bg-circleblue h-14 w-14 border border-dashed shadow-md shadow-projectshadow rounded-full absolute -right-4"></div>
+          <div class="relative inline-flex items-center float-hover-group">
+            <p class="text-white text-shadow font-medium text-2xl relative z-10 floating-text">Custom Solutions</p>
+            <div class="bg-circleblue size-idle border border-dashed shadow-md shadow-projectshadow rounded-full absolute -right-4 floating-circle"></div>
           </div>
         </div>
 
