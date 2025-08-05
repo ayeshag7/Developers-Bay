@@ -13,7 +13,7 @@ export const SecThree = () => {
 
 
   const titlesR1 = ["Website Development", "Web Scraping", "Web Automation", "Chrome Extension Development"];
-  const titlesR2 = ["Data Analysis & Visualization", "Debugging & Maintenance", "AI Integration", "Chat bot Development"];
+  const titlesR2 = ["Data Analysis & Visualization", "Debugging & Maintenance", "AI Integration", "AI Application Development"];
 
   const iconsR1 = [<i className="text-iconcolor text-4xl md:text-5xl bi bi-globe2"></i>, <i class="text-iconcolor text-4xl md:text-5xl bi bi-trash3"></i>, <i class="text-iconcolor text-4xl md:text-5xl bi bi-tropical-storm"></i>, <i class="text-iconcolor text-4xl md:text-5xl bi bi-browser-chrome"></i>]
   const iconsR2 = [<i class="text-iconcolor text-4xl md:text-5xl bi bi-graph-up-arrow"></i>, <i class="text-iconcolor text-4xl md:text-5xl bi bi-wrench-adjustable-circle"></i>,<i class="text-iconcolor text-4xl md:text-5xl bi bi-ui-checks-grid"></i>,  <i class="text-iconcolor text-4xl md:text-5xl bi bi-android2"></i>]
@@ -90,11 +90,20 @@ export const SecThree = () => {
               {/* r1-c4 */}
               <div className={row}>
                 <ServiceCard icon={iconsR1[3]} serviceText={titlesR1[3]}/>
-                <p className="w-28 md:w-40 text-xs text-projectshadow my-4">
-                  Extensions that cater to your
-                  <br />
-                  specific needs.
-                </p>
+                <ul className={column}>
+                  <li className={columnItem}>
+                    {tickIcon}
+                    <p className={belowText}>AI Copilot Assistants</p>
+                  </li>
+                  <li className={`${columnItem} max-sm:mb-8`}>
+                    {tickIcon}
+                    <p className={belowText}>Data-Scraping & ETL Tools</p>
+                  </li>
+                  <li className={`${columnItem} max-sm:mb-8`}>
+                    {tickIcon}
+                    <p className={belowText}>Productivity Overlays</p>
+                  </li>
+                </ul>
               </div>
 
             </div>
@@ -159,11 +168,20 @@ export const SecThree = () => {
               {/* r2-c4 */}
               <div className={row}>
                 <ServiceCard icon={iconsR2[3]} serviceText={titlesR2[3]}/>
-                <p className="text-xs text-projectshadow my-4">
-                AI Chat bots and
-                <br />
-                Virtual Assistants
-                </p>
+                <ul className={column}>
+                  <li className={columnItem}>
+                    {tickIcon}
+                    <p className={belowText}>Custom AI chatbots</p>
+                  </li>
+                  <li className={`${columnItem} max-sm:mb-8`}>
+                    {tickIcon}
+                    <p className={belowText}>Virtual Assistants</p>
+                  </li>
+                  <li className={`${columnItem} max-sm:mb-8`}>
+                    {tickIcon}
+                    <p className={belowText}>Generative AI Apps</p>
+                  </li>
+                </ul>
               </div>
 
             </div>

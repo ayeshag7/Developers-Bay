@@ -7,13 +7,14 @@ import { ProjectCard } from "../../../components/ProjectCard";
 
 export const SecFive = () => {
 
-  const titles = ["Course Cloud", "Movieverse", "Chat2PDF", "Facebook Clone"];
-  const descriptions = ["An online learning platform built with React JS to browse, search, and buy courses.",
-                        "A web app built with React JS and related tools to browse, search, and view movies.",
-                        "A chrome extension for ChatGPT that allows users to save conversations into PDF files.",
-                        "A Facebook clone made with Python, and Tkinter."];
-  const links = ["https://github.com/ayeshag7/CourseCloud", "https://github.com/ayeshag7/Movieverse",
-                  "https://github.com/ayeshag7/Chat2PDF", "https://github.com/ayeshag7/Shopzilla"]
+  const titles = ["AgriSense", "CodeNest", "Course Cloud", "Movieverse"];
+  const descriptions = [
+    "An AI-Powered Precision Agriculture System",
+    "A Platform for Collaborative Coding and Learning",
+    "A Cloud-Based Learning Management System",
+    "A Movie Discovery and Recommendation Platform"
+  ];
+  const links = ["https://github.com/ayeshag7/AgriSense-Platform", "https://github.com/ayeshag7/CodeNest", "https://github.com/ayeshag7/CourseCloud", "https://github.com/ayeshag7/Movieverse"]
   const images = [p1, p2, p3, p4];
 
   return (

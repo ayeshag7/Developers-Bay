@@ -44,14 +44,16 @@ export const Header = () => {
         >
           <ul className="font-normal flex flex-col p-4 md:p-0 mt-4 border border-gray-600 rounded-lg bg-greyishblue md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-darkblue">
             <li>
-              <a
-                href="https://ayeshaiq.hashnode.dev/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block py-2 pl-3 pr-4 text-white hover:text-lightblueheader rounded md:bg-transparent md:p-0"
+              <Link
+                to="/"
+                className={`block py-2 pl-3 pr-4 rounded md:border-0 md:p-0 ${
+                  isActive("/")
+                    ? "text-lightblueheader"
+                    : "text-white hover:text-lightblueheader"
+                }`}
               >
-                Blog
-              </a>
+                Home
+              </Link>
             </li>
             <li>
               <Link
@@ -78,16 +80,14 @@ export const Header = () => {
               </Link>
             </li>
             <li>
-              <Link
-                to="/support"
-                className={`block py-2 pl-3 pr-4 rounded md:border-0 md:p-0 ${
-                  isActive("/support")
-                    ? "text-lightblueheader"
-                    : "text-white hover:text-lightblueheader"
-                }`}
+              <a
+                href="https://ayeshaiq.hashnode.dev/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block py-2 pl-3 pr-4 text-white hover:text-lightblueheader rounded md:bg-transparent md:p-0"
               >
-                Support
-              </Link>
+                Blog
+              </a>
             </li>
           </ul>
         </div>
