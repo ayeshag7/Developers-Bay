@@ -10,8 +10,8 @@ export const SecOne = () => {
         <div className="my-5 mx-5 lg:mx-0">
 
             {/* Header Text */}
-            <h1 className="text-3xl mb-2 md:text-4xl font-medium text-lightblueheader md:mb-4">Providing Tech Solutions</h1>
-            <h1 className="text-3xl md:text-4xl font-medium text-white md:mb-4">That matter to You</h1>
+            <h1 className="text-3xl mb-2 md:text-4xl font-bold text-lightblueheader md:mb-4"> <span className="text-white">Providing</span> Tech Solutions</h1>
+            <h1 className="text-3xl md:text-4xl font-bold text-white md:mb-4">That matter to You</h1>
 
             {/* Paragraph Text */}
             <p className="text-base w-60 md:text-lg text-heroparagraphtext mt-6 mb-8 md:w-96">
